@@ -367,3 +367,99 @@ align-items: center;
 /*  Ekhana theka footer section style sase */
 
 
+
+
+
+
+
+
+
+
+
+/* Ekhana theka responsive section suru */
+
+@media screen and (max-width: 576px) {
+  .display-none {
+    display: none;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-title, .section-title{
+    font-size: 1.5rem;
+  }
+  .section-description{
+    font-size: 0.86rem;
+  }
+  .banner-profile {
+    margin: 28px 0px;
+  }
+  .navbar,
+  .banner-content {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .plants {
+    margin-top: 65px;
+  }
+  .flowers {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 28.5px;
+    column-gap: 20px;
+    margin: 28px 16px 0px 15px;
+  }
+  .flowers-plants {
+    flex-direction: column;
+    margin-top: 41.5px;
+    margin-bottom: 140px;
+  }
+  .flowers-plants-img {
+    margin-bottom: 18px;
+    margin-left: 17px;
+    margin-right: 18px;
+  }
+  .flowers-plants-content {
+    margin-left: 17px;
+    margin-right: 15px;
+  }
+
+  .discount-list{
+    grid-template-areas:
+    "off-60  "
+    "off-30"
+    "off-25"
+    ;
+    gap: 20px;
+    margin: 51.5px 16px 40px 16px;
+  }
+  .off-25 h6{
+    font-size: 1.25rem;
+  }
+  .off-25 a , .flower-title, .flower-price, .add-cart {
+    font-size: 1rem;
+  }
+  .join-title{
+    font-size: 1.25rem;
+  }
+  .email{
+    padding: 19px 90px 19px 20px;
+  }
+  .Subscribe{
+    padding: 21px 12px;
+  }
+  .footer-container{
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 14px;
+  }
+  .footer-description{
+    font-size: 1rem;
+  }
+  .logo-container img{
+    margin-left: 0px;
+  }
+}
+/* Ekhana theka responsive section sase */
+
+
