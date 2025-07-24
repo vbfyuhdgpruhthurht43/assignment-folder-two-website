@@ -296,3 +296,43 @@
 
 
 /* Ekhana theka latest deals section sase*/
+
+
+/* Ekhana theka join section style start suru */
+
+.join{
+background-image: linear-gradient(rgba(7, 51, 79, 0.4)), url('../assets/news-letter-bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+height:533px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.join-title{
+  font-size: 3.125rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+
+.email{
+  color: rgba(0, 0, 0, 0.5);
+  padding: 19px 540px 19px 20px;
+  margin-right: 0px;
+}
+.Subscribe{
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #E95A08;
+  padding: 21px 53.5px;
+  border: none;
+  margin-left: 0px;
+}
+
+
+/* Ekhana theka join section style start sase */
+
+
