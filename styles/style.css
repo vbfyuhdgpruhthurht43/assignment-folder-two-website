@@ -162,3 +162,137 @@
   border: none;
 }
 /* Ekhana theka plants section style sase*/
+
+
+
+/* Ekhana theka flower and plants section style suru */
+
+.flowers-plants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 210px;
+  margin-bottom: 133px;
+}
+.flowers-plants-img {
+  position: relative;
+  max-width: 540px;
+}
+.flowers-plants-img img {
+  width: 100%;
+}
+.trusted-badge {
+  width: 100%;
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: -22%;
+  right: -40%;
+}
+.flowers-plants-content {
+  max-width: 540px;
+}
+
+.flowers-plants-content li {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+/* Ekhana theka flower and plants section style sase */
+
+
+
+
+/* Ekhana theka latest deals section style suru */
+.latest-deals {
+  margin-bottom: 120px;
+}
+
+.latest-deals-info {
+  text-align: center;
+}
+
+.latest-deals-title {
+  margin-bottom: 16px;
+}
+
+.discount-list {
+  display: grid;
+  grid-template-areas:
+    "off-60 off-25 off-25 "
+    "off-30 off-25 off-25";
+  column-gap: 28px;
+  row-gap: 25px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.discount-list img{
+  width: 100%;
+}
+
+.off-60 {
+  grid-area: off-60;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-bloom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 201px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.discount-list h6{
+ color: #FFFFFF;
+}
+.discount-list a {
+ color: #FFFFFF;
+}
+.discount-list h6{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.discount-list a{
+  font-weight: 600;
+  margin-top: 26px;
+  font-size: 1rem;
+}
+.off-30 {
+  grid-area: off-30;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2)), url("../assets/deal-ana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 197px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.off-25 {
+  grid-area: off-25;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:423.12px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.off-25 h6{
+  font-size:2.5rem;;
+  color: #FFFFFF;
+  
+}
+.off-25 a {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+
+/* Ekhana theka latest deals section sase*/
