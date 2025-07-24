@@ -331,8 +331,39 @@ align-items: center;
   border: none;
   margin-left: 0px;
 }
-
-
 /* Ekhana theka join section style start sase */
+
+
+
+
+
+/* Ekhana theka footer section style suru */
+.footer-container{
+  max-width: 1120px;
+  margin:50px  auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo{
+  max-width: 359px;
+}
+.footer-container li{
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.footer-description{
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.quick-link{
+  text-decoration: none;
+}
+.logo-container img{
+  margin-left: 24px;
+  
+}
+/*  Ekhana theka footer section style sase */
 
 
