@@ -1,7 +1,115 @@
-/* akhan takay universal selector soro */
+/* Ekhana theke universal selector suru */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-/* akhan takay universal selector soro  */
+/* Ekhana theke universal selector suru   */
+
+
+/* google font  */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* google font */
+
+
+
+
+
+/* Ekhana theke  shared section style suru */
+
+.header,
+.plants,
+.flowers-plants,
+.discount-list {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.latest-deals-info, .join , .footer-section{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #000000;
+}
+.section-description {
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* Ekhana theke  shared section style sesa */
+
+
+
+/* Ekhana theka navbar section style suru */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu-item {
+  list-style: none;
+  margin-left: 48px;
+}
+.menu-item a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #8987a1;
+}
+#home a {
+  color: #252432;
+  font-weight: bold;
+}
+#cart {
+  color: #000000;
+}
+#cart-pic {
+  margin-right: 10px;
+}
+/* Ekhana theka navbar section style sesa */
+
+
+
+/* Ekhana theka banner section style suru */
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 120px 0px;
+}
+.banner-content {
+  max-width: 570px;
+}
+.banner-titles {
+  margin-bottom: 13px;
+}
+.banner-title {
+  font-size: 4.0625rem;
+  color: #000000;
+}
+.fresh {
+  color: #e95a08;
+}
+
+.banner-profile img {
+  width: 100%;
+}
+/* Ekhana theka banner section style sesa */
